@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="230.0" spacing="3.0" styleClass="rootframe" stylesheets="@../../css/MainStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="230.0" text="Позиция" textFill="#5e5e5e">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="220.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="0" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" scaleX="1.1" scaleY="5.0" startX="-100.0" stroke="#8a8a8a" />
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="243.0" text="Главный" textFill="#5e5e5e">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="220.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ДИЗЕЛЬ 1" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="220.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ДИЗЕЛЬ 2" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" scaleX="1.1" scaleY="5.0" startX="-100.0" stroke="#8a8a8a" />
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="220.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="0 км/ч" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="22.0" prefWidth="230.0" text="Заданная" textFill="#5e5e5e">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="220.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="0 км/ч" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" scaleX="1.1" scaleY="5.0" startX="-100.0" stroke="#8a8a8a" />
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="250.0" text="ТАР" textFill="#5e5e5e">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="220.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ШТАТНО" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Line endX="100.0" scaleX="1.1" scaleY="5.0" startX="-100.0" stroke="#8a8a8a" />
+      <HBox prefHeight="55.0" prefWidth="230.0" spacing="3.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="82.0" prefWidth="115.0" spacing="5.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="243.0" text="ВЫХОД" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="110.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="КШ1-3" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="110.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="КШ2-4" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="100.0" prefWidth="115.0" spacing="5.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="243.0" text="ВХОД" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="27.0" prefWidth="110.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="КШ1-3" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="110.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="КШ2-4" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Line endX="100.0" scaleX="1.1" scaleY="5.0" startX="-100.0" stroke="#8a8a8a">
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </Line>
+      <HBox alignment="CENTER" prefHeight="19.0" prefWidth="230.0" spacing="5.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="27.0" prefWidth="110.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ДТЦ1" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="40.0" prefWidth="110.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ДТЦ2" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>

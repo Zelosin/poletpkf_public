@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="TabFramed">
+    <output-path>$PROJECT_DIR$/out/artifacts/TabFramed</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="zelosin.pack.base.Main" />
+        <option name="description" value="" />
+        <option name="height" value="768" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+        <option name="width" value="1024" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="TabFramed.jar">
+        <element id="module-output" name="TabFramed" />
+      </element>
+      <element id="library" level="project" name="commons-io-2.6" />
+      <element id="library" level="project" name="ini4j-0.5.1" />
+      <element id="library" level="project" name="jfoenix-8.0.8" />
+      <element id="library" level="project" name="jna-5.3.1" />
+      <element id="library" level="project" name="jna-platform-5.3.1" />
+    </root>
+  </artifact>
+</component>

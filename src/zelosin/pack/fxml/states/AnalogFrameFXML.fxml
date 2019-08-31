@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.states.StateAnalogController">
+   <children>
+      <TableView fx:id="dAnalogTable" prefHeight="530.0" prefWidth="810.0" styleClass="tableframe" stylesheets="@../../css/TableStyleSheet.css">
+        <columns>
+          <TableColumn fx:id="dAnalogNumber" prefWidth="53.0" text="#" />
+          <TableColumn fx:id="dAnalogDom" prefWidth="127.0" text="Обозначение" />
+            <TableColumn fx:id="dAnalogDes" prefWidth="371.0" text="Описание параметров" />
+            <TableColumn fx:id="dAnalogValue" minWidth="0.0" prefWidth="79.0" text="Значение" />
+            <TableColumn fx:id="dAnalogUnits" prefWidth="71.0" text=" Единицы&#10;измерения" />
+            <TableColumn fx:id="dAnalogChain" prefWidth="108.0" text="Электрическая &#10;        цепь" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

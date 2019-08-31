@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="dGlobalArea" fx:id="dGlobalPane" maxHeight="768.0" maxWidth="1034.0" minHeight="768.0" minWidth="1034.0" prefHeight="768.0" prefWidth="1034.0" styleClass="dGlobalArea" stylesheets="@../css/MainStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.MainWindowController">
+   <children>
+      <VBox id="tab-header-area" fx:id="dRootPane" layoutX="308.0" layoutY="150.0" prefHeight="200.0" prefWidth="100.0" styleClass="tab-header-area" stylesheets="@../css/MainStyleSheet.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox id="dPaneTitle" alignment="CENTER_RIGHT" prefHeight="42.0" prefWidth="1024.0" styleClass="dPaneTitle" stylesheets="@../css/MainStyleSheet.css">
+               <children>
+                  <Label fx:id="dTabTitle" alignment="CENTER" contentDisplay="CENTER" prefHeight="14.0" prefWidth="569.0" styleClass="bordered" stylesheets="@../css/MainStyleSheet.css" text="ОСНОВНОЙ КАДР" textFill="WHITE" />
+                  <Label fx:id="dDateLabel" alignment="CENTER" prefHeight="19.0" prefWidth="120.0" styleClass="bordered" stylesheets="@../css/MainStyleSheet.css" text="Date" textFill="WHITE" />
+                  <Label fx:id="dTimeLabel" alignment="CENTER" prefHeight="19.0" prefWidth="120.0" styleClass="bordered" stylesheets="@../css/MainStyleSheet.css" text="Time" textFill="WHITE" />
+               </children>
+            </HBox>
+            <HBox id="dSubTitlePane" fx:id="dSubTitleBox" prefHeight="85.0" prefWidth="1024.0" styleClass="dSubTitlePane" />
+            <HBox id="dMainHolder" prefHeight="584.0" prefWidth="1024.0" styleClass="dMainHolder" stylesheets="@../css/MainStyleSheet.css">
+               <children>
+                  <VBox id="LeftColumn" fx:id="dLeftBox" alignment="CENTER" prefHeight="585.0" prefWidth="230.0" style="-fx-background-color: #1b1b1b;" styleClass="LeftColumn" stylesheets="@../css/MainStyleSheet.css" />
+                  <VBox prefHeight="584.0" prefWidth="826.0">
+                     <children>
+                        <JFXTabPane id="dTabPane" fx:id="dMainTabPane" maxHeight="530.0" maxWidth="810.0" minHeight="530.0" minWidth="810.0" prefHeight="530.0" prefWidth="810.0" styleClass="dTabPane" stylesheets="@../css/MainStyleSheet.css" />
+                        <HBox id="dSubTabPane" alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="810.0" styleClass="dSubTabPane" stylesheets="@../css/MainStyleSheet.css">
+                           <VBox.margin>
+                              <Insets right="1.0" />
+                           </VBox.margin>
+                           <children>
+                              <Label fx:id="dNotificationLabel" prefHeight="60.0" prefWidth="805.0" textFill="WHITE">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox id="dSubTabPane" fx:id="dImageBox" prefHeight="70.0" prefWidth="1024.0" spacing="23.0" styleClass="dButtonPane" stylesheets="@../css/MainStyleSheet.css">
+               <children>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button9.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="70.0" fitWidth="77.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../images/button0.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <padding>
+                  <Insets left="20.0" />
+               </padding></HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="jna-5.3.1">
+    <CLASSES>
+      <root url="jar://Z:/java/jna-5.3.1.jar!/" />
+      <root url="jar://Z:/java/jnativehook-2.1.0.jar!/" />
+      <root url="jar://Z:/java/ini4j-0.5.1.jar!/" />
+      <root url="jar://Z:/java/commons-io-2.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

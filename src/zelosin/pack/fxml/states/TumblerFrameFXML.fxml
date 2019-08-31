@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.states.StateTumblerController">
+   <children>
+      <TableView fx:id="dTumblerTable" prefHeight="530.0" prefWidth="810.0" styleClass="tableframe" stylesheets="@../../css/TableStyleSheet.css">
+        <columns>
+          <TableColumn fx:id="dTumblerNumber" prefWidth="75.0" style=": ;" text="#" />
+          <TableColumn fx:id="dTumblerDom" prefWidth="117.0" text="Обозначение" />
+            <TableColumn fx:id="dTumblerDes" prefWidth="475.0" text="Описание параметра" />
+            <TableColumn fx:id="dTumblerChain" prefWidth="142.0" text="Состояние / Цепь" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

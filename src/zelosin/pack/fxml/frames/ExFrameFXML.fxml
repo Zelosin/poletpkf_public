@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="810.0" style="-fx-background-color: #1b1b1b;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.frames.ExFrameController">
+   <children>
+      <VBox prefHeight="185.0" prefWidth="810.0">
+         <children>
+            <HBox fx:id="dExHolder0" prefHeight="100.0" prefWidth="200.0" spacing="3.0">
+               <children>
+                  <VBox fx:id="dExPair0" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair1" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair2" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair3" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair4" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair5" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair6" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair7" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="2.0" right="2.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox fx:id="dExHolder1" prefHeight="100.0" prefWidth="200.0" spacing="3.0">
+               <children>
+                  <VBox fx:id="dExPair8" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair9" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair10" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair11" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair12" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair13" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair14" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+                  <VBox fx:id="dExPair15" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="TOP" prefHeight="40.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="161.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets left="2.0" right="2.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="59.0" prefWidth="810.0" spacing="100.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="35.0" prefWidth="250.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text=" Моточасы компрессора" textFill="WHITE" />
+                  <Label alignment="CENTER" prefHeight="35.0" prefWidth="250.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="0ч 0м 0с" textFill="WHITE" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox prefHeight="345.0" prefWidth="810.0">
+         <children>
+            <VBox prefHeight="345.0" prefWidth="405.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css">
+               <children>
+                  <Label alignment="CENTER" prefHeight="25.0" prefWidth="405.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="Дизель №1" textFill="WHITE" />
+                  <HBox fx:id="dExHolder2" prefHeight="139.0" prefWidth="405.0" spacing="3.0">
+                     <children>
+                        <VBox fx:id="dExPair16" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair17" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair18" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair19" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair20" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair21" prefHeight="139.0" prefWidth="75.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+                  <HBox fx:id="dExHolder4" prefHeight="139.0" prefWidth="405.0" spacing="3.0">
+                     <children>
+                        <VBox fx:id="dExPair28" prefHeight="139.0" prefWidth="62.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="77.0" prefWidth="72.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair29" prefHeight="139.0" prefWidth="64.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair30" prefHeight="139.0" prefWidth="63.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair31" prefHeight="139.0" prefWidth="63.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair32" prefHeight="139.0" prefWidth="64.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets left="2.0" right="2.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="40.0" prefWidth="405.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="289.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="Моточасы дизеля №1" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="128.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="0ч 0м 0с" textFill="WHITE" />
+                     </children>
+                  </HBox>
+               </children></VBox>
+            <VBox prefHeight="345.0" prefWidth="405.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css">
+               <children>
+                  <Label alignment="CENTER" prefHeight="25.0" prefWidth="405.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="Дизель №2" textFill="WHITE" />
+                  <HBox fx:id="dExHolder3" prefHeight="139.0" prefWidth="405.0" spacing="3.0">
+                     <children>
+                        <VBox fx:id="dExPair22" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair23" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair24" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair25" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair26" prefHeight="139.0" prefWidth="70.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair27" prefHeight="139.0" prefWidth="75.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="2.0" right="2.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox fx:id="dExHolder5" prefHeight="139.0" prefWidth="405.0" spacing="3.0">
+                     <children>
+                        <VBox fx:id="dExPair33" prefHeight="139.0" prefWidth="64.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair34" prefHeight="139.0" prefWidth="62.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair35" prefHeight="139.0" prefWidth="62.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair36" prefHeight="139.0" prefWidth="63.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="100.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                        <VBox fx:id="dExPair37" prefHeight="139.0" prefWidth="65.0">
+                           <children>
+                              <Label alignment="CENTER" contentDisplay="TOP" prefHeight="78.0" prefWidth="65.0" styleClass="dom" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                              <Label alignment="CENTER" prefHeight="63.0" prefWidth="100.0" styleClass="val" stylesheets="@../../css/MainStyleSheet.css" textFill="WHITE" />
+                           </children>
+                        </VBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets left="2.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox prefHeight="40.0" prefWidth="405.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="289.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="Моточасы дизеля №2" textFill="WHITE" />
+                        <Label alignment="CENTER" prefHeight="40.0" prefWidth="128.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="0ч 0м 0с" textFill="WHITE" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children></HBox>
+   </children>
+</VBox>

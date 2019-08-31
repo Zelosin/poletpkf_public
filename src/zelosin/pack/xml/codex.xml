@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<CODE_LIST>
+    <CODE>
+        <VALUE>1</VALUE>
+        <TEXT>Перегрев</TEXT>
+        <LEVEL>1</LEVEL>
+    </CODE>
+    <CODE>
+        <VALUE>2</VALUE>
+        <TEXT>Охлаждение</TEXT>
+        <LEVEL>1</LEVEL>
+    </CODE>
+    <CODE>
+        <VALUE>22</VALUE>
+        <TEXT>Высокое давление</TEXT>
+        <LEVEL>1</LEVEL>
+    </CODE>
+    <CODE>
+        <VALUE>11</VALUE>
+        <TEXT>Высокое напряжение</TEXT>
+        <LEVEL>1</LEVEL>
+    </CODE>
+    <CODE>
+        <VALUE>87</VALUE>
+        <TEXT>1234Высокая скоростьВысокая скоростьВысокая скоростьВысокая скоростьВысокая скоростьВысокая скоростьВысокая скоростьВысокая скоростьВысокая скорость</TEXT>
+        <LEVEL>5</LEVEL>
+    </CODE>
+    <CODE>
+        <VALUE>55</VALUE>
+        <TEXT>Нехватка топлива</TEXT>
+        <LEVEL>3</LEVEL>
+    </CODE>
+    <CODE>
+        <VALUE>33</VALUE>
+        <TEXT>Утечка</TEXT>
+        <LEVEL>4</LEVEL>
+    </CODE>
+</CODE_LIST>

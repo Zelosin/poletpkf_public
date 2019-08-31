@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="810.0" styleClass="rootframe" stylesheets="@../../../css/MainStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.frames.WarningFrameController">
+    <children>
+        <TableView fx:id="dWarningTableView" prefHeight="440.0" prefWidth="810.0" style="-fx-border-color: #1b1b1b;" styleClass="tableframe" stylesheets="@../../../css/TableStyleSheet.css" AnchorPane.bottomAnchor="90.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="dWarningTableCode" prefWidth="25.0" />
+                <TableColumn fx:id="dWarningTableTime" prefWidth="90.0" text="Время" />
+                <TableColumn fx:id="dWarningTableText" prefWidth="693.0" text="Текст информационного сообщения " />
+            </columns>
+        </TableView>
+        <HBox layoutX="8.0" layoutY="440.0" prefHeight="85.0" prefWidth="200.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0">
+            <children>
+                <Label alignment="CENTER" prefHeight="80.0" prefWidth="645.0" styleClass="bordered" stylesheets="@../../../css/MainStyleSheet.css" text="В данной вкладке отображаются &quot;тревожные и информационные сообщения&quot;, которые возникли при тепловоза.&#10;Переключение между типами сообщений осуществляется нажатием клавиши &quot;E&quot;.&#10;Используйте клавиши ВПРАВО, ВЛЕВО, ВВЕРХ, ВНИЗ для просмотра сообщений.&#10;Количество новых сообщений / Общее количество сообщений." textAlignment="CENTER" textFill="#979797">
+                    <HBox.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                    </HBox.margin>
+                </Label>
+                <Label fx:id="dNotificationCounter" alignment="CENTER" prefHeight="80.0" prefWidth="150.0" styleClass="bordered" stylesheets="@../../../css/MainStyleSheet.css" textAlignment="CENTER" textFill="#979797">
+                    <HBox.margin>
+                        <Insets top="3.0" />
+                    </HBox.margin>
+                    <font>
+                        <Font size="31.0" />
+                    </font>
+                </Label>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

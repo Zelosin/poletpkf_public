@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="810.0" styleClass="rootframe" stylesheets="@../../css/MainStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.states.StateDiscreteController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="25.0" prefWidth="810.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="405.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ВХОДЫ" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="25.0" prefWidth="405.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ВЫХОДЫ" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="551.0" prefWidth="810.0">
+         <children>
+            <TableView fx:id="dInTable" prefHeight="530.0" prefWidth="405.0">
+               <columns>
+                  <TableColumn fx:id="dInNumber" prefWidth="30.0" style=": ;" text="#" />
+                  <TableColumn fx:id="dInDom" prefWidth="60.0" text="ИМЯ" />
+                  <TableColumn fx:id="dInDes" prefWidth="210.0" text="ОБОЗНАЧЕНИЕ" />
+                  <TableColumn fx:id="dInChain" prefWidth="104.0" text="ССТ" />
+               </columns>
+               <styleClass>
+                  <String fx:value="tableframe" />
+                  <String fx:value="discretetable" />
+               </styleClass>
+               <stylesheets>
+                  <URL value="@../../css/TableStyleSheet.css" />
+                  <URL value="@../../css/MainStyleSheet.css" />
+               </stylesheets>
+            </TableView>
+            <TableView fx:id="dOutTable" prefHeight="530.0" prefWidth="405.0">
+               <columns>
+                  <TableColumn fx:id="dOutNumber" prefWidth="30.0" style=": ;" text="#" />
+                  <TableColumn fx:id="dOutDom" prefWidth="60.0" text="ИМЯ" />
+                  <TableColumn fx:id="dOutDes" prefWidth="131.0" text="ОБОЗНАЧЕНИЕ" />
+                  <TableColumn fx:id="dOutChain" prefWidth="73.0" text="ССТ" />
+                  <TableColumn fx:id="dOutValue" prefWidth="40.0" text="К3" />
+                  <TableColumn fx:id="dOutUnits" prefWidth="70.0" text="ОБР" />
+               </columns>
+               <stylesheets>
+                  <URL value="@../../css/TableStyleSheet.css" />
+                  <URL value="@../../css/MainStyleSheet.css" />
+               </stylesheets>
+               <styleClass>
+                  <String fx:value="tableframe" />
+                  <String fx:value="discretetable" />
+               </styleClass>
+            </TableView>
+         </children>
+      </HBox>
+   </children>
+</VBox>

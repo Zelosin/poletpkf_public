@@ -1,0 +1,172 @@
+#dGlobalArea{
+    -fx-background-color: #1b1b1b;
+}
+
+#dPaneTitle, #dSubTitlePane, #LeftColumn, #dSubTabPane, #dButtonPane, #dTabPane{
+    -fx-background-color: #1b1b1b;
+    -fx-border-color: white;
+}
+
+#dHolderId{
+    -fx-background-color: #1b1b1b;
+}
+
+.bordered{
+    -fx-border-color: #333333;
+    -fx-border-width: 1px;
+}
+
+#dTabPane {
+    -fx-tab-max-height: 0 ;
+}
+
+#dTabPane .tab-header-area {
+    visibility: hidden ;
+}
+
+
+/* SUBTITLE */
+
+.titledom{
+    -fx-background-color: #D6D6D6;
+}
+
+/* SUBTITLE */
+
+
+/* VERSIONFRAME */
+
+.versiondom{
+    -fx-background-color: #afc0c4;
+}
+
+/* VERSIONFRAME*/
+
+
+/* EXFRAME */
+
+.dom,.val{
+    -fx-text-fill: white;
+    -fx-font-size: 14pt;
+}
+/*
+.dom{
+    -fx-background-color: green;
+}*/
+
+/* EXFRAME */
+
+
+/* timesetter */
+
+.timesetter{
+    -fx-text-fill: white;
+    -fx-background-color: #1b1b1b;
+}
+
+.timesetter:focused{
+    -fx-background-color:  #D4893E;
+}
+
+/* timesetter */
+
+
+.rootframe{
+    -fx-background-color: #1b1b1b;
+}
+
+#dUSBListClass .list-cell:focused{
+    -fx-background-color: #1b1b1b;
+    -fx-scale-x: 1.55;
+    -fx-scale-y: 1.55;
+}
+
+#dUSBListClass .list-cell{
+    -fx-background-color: #1b1b1b;
+    -fx-background-insets: 30px, 0px ;
+}
+
+.scroll-bar:horizontal {
+    -fx-opacity: 0;
+    -fx-padding:-7;
+}
+
+#dUSBListClass .list-cell:selected{
+    -fx-background-color: #1b1b1b;
+    -fx-background-image: url("../images/conf.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+}
+
+#dUSBListClass{
+    -fx-background-color: #1b1b1b;
+    -fx-border-radius: 10 10 10 10;
+}
+
+.list-view:focused, #dFolderListClass:focused{
+    -fx-border-color: #D4893E;
+    -fx-border-insets: -6;
+}
+.list-view .scroll-bar:vertical {
+    -fx-opacity: 0;
+    -fx-padding:-7;
+}
+
+#dFolderListClass .list-cell:selected{
+    -fx-background-color: #333333;
+    -fx-background-image: url("../images/conf.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: right;
+}
+
+#dFolderListClass{
+    -fx-background-radius: 5;
+    -fx-background-color: #333333;
+    -fx-border-radius: 10 10 10 10;
+}
+
+#dFolderListClass .list-cell {
+    -fx-background-color:  #333333;
+    -fx-text-fill: white;
+    -fx-border-insets: -1;
+}
+
+#dFolderListClass .list-cell:focused {
+    -fx-background-color: #4a4a4a;
+}
+
+#dCopyButtonClass{
+    -fx-background-color: #333333;
+}
+
+.progress-bar{
+    -fx-accent: #D4893E;
+}
+
+.progress-bar .track{
+    -fx-background-color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

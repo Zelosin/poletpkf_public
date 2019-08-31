@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.states.StateOutBlocksController">
+   <children>
+      <TableView fx:id="dOutBlocksTable" prefHeight="530.0" prefWidth="810.0" styleClass="tableframe" stylesheets="@../../css/TableStyleSheet.css">
+        <columns>
+          <TableColumn fx:id="dOutBlocksNumber" prefWidth="75.0" style=": ;" text="#" />
+          <TableColumn fx:id="dOutBlocksDom" prefWidth="117.0" text="Обозначение" />
+            <TableColumn fx:id="dOutBlocksDes" prefWidth="475.0" text="Описание параметра" />
+            <TableColumn fx:id="dOutBlocksChain" prefWidth="142.0" text="Состояние / Цепь" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

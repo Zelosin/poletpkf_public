@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="810.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.menu.MenuController">
+   <children>
+      <TableView fx:id="dMenuTable" prefHeight="530.0" prefWidth="810.0" styleClass="menutable" stylesheets="@../../css/TableStyleSheet.css">
+        <columns>
+          <TableColumn fx:id="dMenuTableSection" prefWidth="624.0" style="-fx-border-color: #333333; -fx-border-width: 1px;" />
+          <TableColumn fx:id="dMenuTableButton" prefWidth="185.0" style="-fx-font-size: 26pt; -fx-border-color: #333333; -fx-border-width: 1px;" styleClass="menunumber" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>

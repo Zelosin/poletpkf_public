@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TabFramed.jnlp">
+  <information>
+    <title>TabFramed</title>
+    <vendor>Unknown</vendor>
+    <description>TabFramed</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TabFramed.jar" size="283218" download="eager" />
+    <jar href="commons-io-2.6.jar" size="214788" download="eager" />
+    <jar href="ini4j-0.5.1.jar" size="96879" download="eager" />
+    <jar href="jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="jna-5.3.1.jar" size="1505196" download="eager" />
+    <jar href="jna-platform-5.3.1.jar" size="2624736" download="eager" />
+    <jar href="jnativehook-2.1.0.jar" size="208804" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="1024" height="768" main-class="zelosin.pack.base.Main"  name="TabFramed" />
+  <update check="background"/>
+</jnlp>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="810.0" styleClass="rootframe" stylesheets="@../../css/MainStyleSheet.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.frames.DataSetterController">
+   <children>
+      <Label alignment="CENTER" prefHeight="50.0" prefWidth="550.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ДАТА" textFill="#bebebe">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="2.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="90.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ДЕНЬ" textFill="#bebebe">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="dDayBt" mnemonicParsing="false" prefHeight="50.0" prefWidth="90.0" styleClass="timesetter, bordered" stylesheets="@../../css/MainStyleSheet.css" text="0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="90.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="МЕСЯЦ" textFill="#bebebe">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="dMonthBt" mnemonicParsing="false" prefHeight="50.0" prefWidth="90.0" styleClass="timesetter, bordered" stylesheets="@../../css/MainStyleSheet.css" text="0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="90.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ГОД" textFill="#bebebe">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="dYearBt" mnemonicParsing="false" prefHeight="50.0" prefWidth="90.0" styleClass="timesetter, bordered" stylesheets="@../../css/MainStyleSheet.css" text="0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Label alignment="CENTER" prefHeight="50.0" prefWidth="550.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ВРЕМЯ" textFill="#bebebe">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="2.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="90.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="ЧАСЫ" textFill="#bebebe">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="dHourBt" mnemonicParsing="false" prefHeight="50.0" prefWidth="90.0" styleClass="timesetter, bordered" stylesheets="@../../css/MainStyleSheet.css" text="0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" prefHeight="50.0" prefWidth="90.0" styleClass="bordered" stylesheets="@../../css/MainStyleSheet.css" text="МИНУТЫ" textFill="#bebebe">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="dMinuteBt" mnemonicParsing="false" prefHeight="50.0" prefWidth="90.0" styleClass="timesetter, bordered" stylesheets="@../../css/MainStyleSheet.css" text="0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Button fx:id="dAcceptBt" mnemonicParsing="false" onAction="#onActionSetSystemTime" prefHeight="50.0" prefWidth="182.0" styleClass="timesetter, bordered" stylesheets="@../../css/MainStyleSheet.css" text="ПРИМЕНИТЬ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</VBox>
