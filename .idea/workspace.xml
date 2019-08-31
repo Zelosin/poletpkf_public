@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="64eada16-c1df-45a0-894e-29df6322c63b" name="Default Changelist" comment="" />
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,65 +64,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zelosin/pack/utils/GlobalData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-              <folding>
-                <element signature="e#6208#6209#0" expanded="true" />
-                <element signature="e#6295#6296#0" expanded="true" />
-                <element signature="e#6460#10242#0" expanded="true" />
-                <element signature="e#10241#10242#0" expanded="true" />
-                <element signature="e#10707#10708#0" expanded="true" />
-                <element signature="e#10753#10754#0" expanded="true" />
-                <element signature="e#11047#11048#0" expanded="true" />
-                <element signature="e#11088#11089#0" expanded="true" />
-                <element signature="e#11130#11131#0" expanded="true" />
-                <element signature="e#11163#11164#0" expanded="true" />
-                <element signature="e#11205#11206#0" expanded="true" />
-                <element signature="e#11238#11239#0" expanded="true" />
-                <element signature="e#11281#11282#0" expanded="true" />
-                <element signature="e#11314#11315#0" expanded="true" />
-                <element signature="e#11353#11354#0" expanded="true" />
-                <element signature="e#11394#11395#0" expanded="true" />
-                <element signature="e#11442#11443#0" expanded="true" />
-                <element signature="e#11478#11479#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zelosin/pack/ini/preset.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zelosin/pack/parsers/INIParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zelosin/pack/parsers/XMLParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="461">
+              <caret line="57" column="91" lean-forward="true" selection-start-line="57" selection-start-column="91" selection-end-line="57" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -257,7 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,26 +227,13 @@
               <item name="TarFramed" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pack" type="462c0819:PsiDirectoryNode" />
-              <item name="ini" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TarFramed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TarFramed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pack" type="462c0819:PsiDirectoryNode" />
               <item name="parsers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TarFramed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TarFramed" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pack" type="462c0819:PsiDirectoryNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -533,7 +466,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284416000" />
+    <option name="totallyTimeSpent" value="284558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,11 +479,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.6703755" visible="true" weight="0.18176973" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.6703755" visible="true" weight="0.18550107" />
       <window_info id="Structure" order="4" weight="0.25" />
       <window_info id="Favorites" order="5" weight="0.32995737" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -1025,11 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zelosin/pack/parsers/INIParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="461">
+          <caret line="57" column="91" lean-forward="true" selection-start-line="57" selection-start-column="91" selection-end-line="57" selection-end-column="91" />
         </state>
       </provider>
     </entry>
