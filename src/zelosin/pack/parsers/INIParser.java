@@ -56,7 +56,6 @@ public class INIParser {
             settingsPreset.mColorTier3 = mReader.get("DATA", "COLOR_TIER_3", String.class);
             settingsPreset.mColorTier4 = mReader.get("DATA", "COLOR_TIER_4", String.class);
             settingsPreset.mColorTier5 = mReader.get("DATA", "COLOR_TIER_5", String.class);
-            int i;
         }
     }
 }
